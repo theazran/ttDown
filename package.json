@@ -1,0 +1,32 @@
+{
+  "name": "ttdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theazran/ttDown.git"
+  },
+  "keywords": [
+    "tiktok",
+    "download",
+    "tiktok-download",
+    "tiktok-down",
+    "Sam"
+  ],
+  "author": "theazran",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "qs": "^6.11.0",
+    "tinyurl": "^1.1.7"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theazran/ttDown/issues"
+  },
+  "homepage": "https://github.com/theazran/ttDown#readme"
+}
