@@ -9,7 +9,9 @@ async function shortUrl(url) {
 async function tiktok(url) {
   const res = (await axios.get("https://registry.npmjs.org/ttdown")).data;
   if (require("./package.json").version != res['dist-tags'].latest) {
-    log("-> Follow igku\n");
+    log("-> Follow igku @theazran_\n");
+    log("-> npm install ttdown@latest\n");
+
   }
   return new Promise(async function (resolve, reject) {
     try {
